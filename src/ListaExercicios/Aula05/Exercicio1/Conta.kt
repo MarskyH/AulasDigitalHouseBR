@@ -1,4 +1,4 @@
-package ListaExercicios.Aula05
+package ListaExercicios.Aula05.Exercicio1
 
 class Conta(val numero: Int, var saldo: Double, var titular: Cliente) {
     fun Depositar(valor: Double){

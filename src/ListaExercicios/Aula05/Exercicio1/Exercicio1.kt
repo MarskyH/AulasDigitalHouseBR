@@ -1,4 +1,4 @@
-package ListaExercicios.Aula05
+package ListaExercicios.Aula05.Exercicio1
 fun main(){
     val cliente1 = Cliente("Marcus", "Loureiro")
     val cliente2 = Cliente("Rafael", "Souza")
