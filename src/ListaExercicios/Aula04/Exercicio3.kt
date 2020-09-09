@@ -1,4 +1,4 @@
-package ListaExercicios
+package ListaExercicios.Aula04
 fun main(){
     println(verificaPar(4))
 }
