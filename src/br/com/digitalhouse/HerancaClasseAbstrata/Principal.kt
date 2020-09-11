@@ -6,6 +6,7 @@ fun main() {
 
     brasileiro.locomover()
     brasileiro.idadePessoa()
+    println(brasileiro.come("Feijoada"))
 
     println("OBJETO FELINO ------------------------------------------")
     val pantera = Felino()
@@ -14,4 +15,5 @@ fun main() {
     println("OBJETO GATO ------------------------------------------")
     val gatinhoPelucia = Gato()
     gatinhoPelucia.gatoAndando()
+
 }

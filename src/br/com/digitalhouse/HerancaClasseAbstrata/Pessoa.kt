@@ -8,9 +8,15 @@ class Pessoa(idade: Int = 0, especie: String = "", val nome: String = "") : Anim
         }
     }
 
+    override fun come(comida: String): String {
+       return "O $nome está comendo $comida"
+    }
+
     fun idadePessoa() {
         super.idade()
         print("Nome $nome e é uma pessoa")
     }
+
+
 
 }

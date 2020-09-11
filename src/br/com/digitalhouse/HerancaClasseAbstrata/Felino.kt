@@ -8,4 +8,8 @@ open class Felino(open val cor: String = "") : Animal() {
             super.locomover()
         }
     }
+
+    override fun come(comida: String): String {
+        return comida
+    }
 }
