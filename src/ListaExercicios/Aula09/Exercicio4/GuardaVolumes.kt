@@ -9,13 +9,20 @@ class GuardaVolumes() {
         println("Chave: $contador")
         contador += 1
     }
-    fun mostrarListaPecas() {
-        for (key in volumesMap) {
-            println(key.toString())
+    fun mostrarListaPecas(listaDePeca: List<Peca>) {
+        volumesMap.forEach(){
+            println("Numero de identificação: ${it.key}")
+            for(i in 0..volumesMap.size-1){
+                println("${it.value[i].marca} ${it.value[i].modelo}")
+            }
+            println("\n")
         }
     }
     fun mostrarPecas(numero: Int) {
-        println(volumesMap.getValue(numero))
+        for(i in 0..volumesMap.getValue(numero).size-1){
+            println(volumesMap.getValue(numero)[i].marca)
+            println(volumesMap.getValue(numero)[i].modelo)
+        }
     }
     fun devolverPecas(numero: Int){
         volumesMap.remove(numero)
