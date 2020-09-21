@@ -7,6 +7,7 @@ Aulas de Kotlin no Curso de Desenvolvimento Mobile Android da Digital House Bras
  - Interface.
  - Collections.
  - Orientação Objeto.
+ - Exceptions
  
  
 💚 Tudo isso usando menos linhas. 💚
