@@ -9,7 +9,7 @@ fun main() {
     array.add("Gato")
     try {
         println(array.get(5))
-    }catch (ex: Exception){
+    } catch (ex: Exception) {
         println("Ocorreu um erro:" +
                 "\nMenssagem: ${ex.message} " +
                 "\nCausa: ${ex.cause}" +
@@ -28,8 +28,6 @@ fun main() {
 //                "\nCausa: ${ex.cause}" +
 //                "\nLocalização: ${ex.localizedMessage}")
 //    }
-
-
 
 
 }
