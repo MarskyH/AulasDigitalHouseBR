@@ -9,6 +9,5 @@ fun main() {
         println(array.get(3))
     } catch (ex: Exception) {
         println("Ocorreu um erro: ${ex.message}")
-        ex.stackTrace
     }
 }
