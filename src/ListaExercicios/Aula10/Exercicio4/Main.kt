@@ -9,7 +9,7 @@ fun main(){
 
     val funcionarioNovo = Funcionario("Maria", 1243)
     println(lista.contains(funcionarioNovo))
-    println(lista.equals(funcionarioNovo))
+
 
 
 }
